@@ -1,4 +1,3 @@
----
 - name: Update all packages
   apt:
     update_cache: yes

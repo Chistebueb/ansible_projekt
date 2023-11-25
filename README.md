@@ -1,6 +1,6 @@
 ## Initial Steps
 
-To begin working on this project, please adhere to the provided guidelines for necessary preparations and setup processes.
+Please follow the guidelines for setting up and starting this project.
 
 ### Necessary Preparations
 
