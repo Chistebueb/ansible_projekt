@@ -1,20 +1,22 @@
-## Initial Steps
+## Getting Started
 
-Please follow the guidelines for setting up and starting this project.
+This guide will assist you in setting up and launching the project smoothly.
 
-### Necessary Preparations
+### Initial Setup
 
-This project requires the installation of ansible and functional ssh on your local computer. Additionally, ensure that you have two machines available for the target, both equipped with ssh capability.
+Before you begin, make sure your local computer is equipped with ansible and ssh functionality. You'll also need two target machines, both with ssh capabilities.
 
-* Installing ansible:
+* **Install ansible:**
 
-```sh
-sudo apt-get install ansible
-```
+  Use the following command to install ansible on your system:
+
+  ```sh
+  sudo apt-get install ansible
+  ```
 
 ### Installation
-1. Modify the IP addresses listed in the inventory file.
+1. Locate the inventory file and replace the existing IP addresses with those of your target machines.
 
 2. Execute the following command on your local computer: ```ansible-playbook playbooks/setup.yml```
 
-3. After the playbook run successfully you should be able to see the working spring boot application on port ```8080``` of your ref03 machine.
+3. Once the playbook execution is complete, check the functionality. You should be able to access the spring boot application on port 8080 of your ref03 machine.
