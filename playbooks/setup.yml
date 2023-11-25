@@ -1,0 +1,7 @@
+---
+- hosts: maas_instances
+  become: yes
+  roles:
+    - common
+    - webserver
+    - database

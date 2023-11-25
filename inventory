@@ -1,0 +1,9 @@
+[maas_instances]
+maas_instance_1 ansible_host=172.20.223.173
+maas_instance_2 ansible_host=172.20.213.183
+
+[webservers]
+maas_instance_1
+
+[databases]
+maas_instance_2
